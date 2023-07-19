@@ -1,6 +1,6 @@
 ## Doubly Linked List
 
-Name: Marian Padron
+**Completed January 2023**
 
 Homework assignment in which I implemented my own doubly linked list. It is a simple implementation of the data structure, and its methods were tested using simple unit tests. These were completed based on a rubric, and it is important to note that while the majority of the code is mine, I did receive collaboration and help from TAs and the professor.
 
