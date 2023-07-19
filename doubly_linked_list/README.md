@@ -1,25 +1,11 @@
-# Homework 04: Doubly Linked List
+## Doubly Linked List
 
 Name: Marian Padron
 
-Github Account name: mpadron-neu
-
-How many hours did it take you to complete this assignment (estimate)? 3-4hrs
-
-Did you collaborate with any other students/TAs/Professors? If so, tell us who and in what capacity.  
-- one per row, add more if needed
+Homework assignment in which I implemented my own doubly linked list. It is a simple implementation of the data structure, and its methods were tested using simple unit tests. These were completed based on a rubric, and it is important to note that while the majority of the code is mine, I did receive collaboration and help from TAs and the professor.
 
 
-Did you use any external resources (you do not have to cite in class material)? (Cite them below)  
-
-- Time complexities of different data structures : https://www.geeksforgeeks.org/time-complexities-of-different-data-structures/
-
-
-(Optional) What was your favorite part of the assignment? 
-
-(Optional) How would you improve the assignment? 
-
-## Understanding Time Complexity
+### Understanding Time Complexity
 
 1. Using a markdown table and markdown/latex math, show the BigO for Arrays, Singly Linked Lists, Doubly Linked Lists (so total of 3). For the columns, you will look at the Average Case Time Complexity for Access, Search/Find,	Insertion, and Deletion. 
 
@@ -39,11 +25,4 @@ For both, only having the head referenced would mean a runtime of O(n) because y
 Linked lists are very time efficient when it comes to changing the location of data, and inserting or deleting at the end or front of the list (O(1)). Because linked lists use nodes with pointers to the location of data, they don't require the same rearraging of data as an array which has a set memory location. This makes using linked lists in situations where things may need to be added or changed very efficient. An example of this could be a digital phone book, where everytime you add the phone number of a person, you would need to rearange the data to fit the alphabetical order of people's names. On the other hand, arrays are very efficient at fetching or accessing data from a given location (O(1)). Arrays are a good structure to use when working with set data that is very unlikely to grow or change, and that requires quick access. An example of this would be to hold student grades in a fixed sized classroom, where you can access a student's grade depending on its location in the array and quickly update it.
 
 Note: Make sure look at your finished markdown in the browser hosted on github or via a markdown preview extension. To confirm the notation is showing up properly. 
-
-## Important notes
-
-* Your code **must compile and run** on the Khoury machines to earn credit. Make sure you test your programs on these machines, as this is where we grade your assignments.
-* You must commit any additional files(if any) into your repository so we can test your code.
-  * Points will be lost if you forget!
-* Do not forget, once you have pushed your changes to your repo make sure that you **submit them to Gradescope before the assignment deadline!**
 
