@@ -1,16 +1,6 @@
 
 // =================== Support Code =================
 // Doubly Linked List ( DLL ).
-//
-//
-//
-// - Implement each of the functions to create a working DLL.
-// - Do not change any of the function declarations
-//   - (i.e. dll_t* create_dll() should not have additional arguments)
-// - You should not have any 'printf' statements in your DLL functions.
-//   - (You may consider using these printf statements to debug,
-//     but they should be removed from your final version)
-//   - (You may write helper functions to help you debug your code such as print_list etc)
 // ==================================================
 #ifndef MYDLL_H
 #define MYDLL_H
@@ -44,7 +34,6 @@ typedef struct DLL
 // Returns NULL if we could not allocate memory.
 dll_t *create_dll()
 {
-    // Modify the body of this function as needed.
     dll_t *myDLL = (dll_t*)malloc(sizeof(dll_t));
 
     if (myDLL == NULL){
