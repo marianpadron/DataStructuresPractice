@@ -10,11 +10,12 @@ Homework assignment in which I implemented my own doubly linked list. It is a si
 1. Using a markdown table and markdown/latex math, show the BigO for Arrays, Singly Linked Lists, Doubly Linked Lists (so total of 3). For the columns, you will look at the Average Case Time Complexity for Access, Search/Find,	Insertion, and Deletion. 
 
 | Big O Table         | Access | Search / Find |  Insertion   |  Deletion   | 
-|---------------------------------------------------------------------------|
+|---------------------|--------|---------------|--------------|-------------|
 | Arrays              |  O(1)  |     O(n)      |     O(n)     |     O(n)    | 
-| Singly Linked Lists |  O(n)  |     O(n)      | O(n) or O(1) | O(n) or O(1)| <- when inserting or deleting at the
-| Doubly Linked Lists |  O(n)  |     O(n)      | O(n) or O(1) | O(n) or O(1)| head or tail of list, runtime = O(1);
-                                                                            when going through the list to insert at a specific location, runtime = O(n) + O(1) = O(n)
+| Singly Linked Lists |  O(n)  |     O(n)      | O(n) or O(1) | O(n) or O(1)| 
+| Doubly Linked Lists |  O(n)  |     O(n)      | O(n) or O(1) | O(n) or O(1)| 
+                                                                            
+Note: In a singly linked list, when inserting or deleting at the head or tail of list, runtime = O(1); when going through the list to insert at a specific location, runtime = O(n) + O(1) = O(n).
 
 2. Usually for singly and doubly linked lists, we reference both the head and tail for speed considerations. What would be the cost if you only had your head referenced, and you wanted to push to the tail of either?  $O(?)$
 
