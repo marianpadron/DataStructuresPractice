@@ -1,10 +1,8 @@
 #include "hashmap.h"
 
 
-/** use this file for tests. 
- * 
- * Below isn't actually any 'real' tests, it
- * just simply is a sample run. 
+/**
+ * just a sample run for testing. 
 */
 
 /**
