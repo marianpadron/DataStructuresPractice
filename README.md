@@ -1,6 +1,6 @@
 ## - Stacks and Queues -
-
 Name: Marian Padron 
+Homework assignment in which I wrote my own queue and stack libraries to better understand how they are implemented and work. They are simple implementations of both data structures, and their methods were tested using simple unit tests. These were completed based on a rubric, and it is important to note that while the majority of the code is mine, I did collaborate with the TAs and the professor.
 
 ### Further Thinking Questions
 
@@ -31,6 +31,16 @@ Citations:
 
 “Applications, Advantages and Disadvantages of Stack.” GeeksforGeeks, GeeksforGeeks, 13 June 2022, https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-stack/. 
 
-“Defining a Stack as an Abstract Data Type.” Stacks, https://www.cse.unr.edu/~sushil/class/cs202/notes/stacks/stacks.html. 
+“Defining a Stack as an Abstract Data Type.” Stacks, https://www.cse.unr.edu/~sushil/class/cs202/notes/stacks/stacks.html.
+
+### Other Resources
+
+* [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+* [Queue High Level Description](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+* [Stack High Level Description](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
+* [Example Single File C Libraries](https://github.com/nothings/single_file_libs)
+* [Are header only libraries more efficient?](https://softwareengineering.stackexchange.com/questions/305618/are-header-only-libraries-more-efficient)
+* [Header Files from GCC](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html)
+* [Circular Buffer](https://en.wikipedia.org/wiki/Circular_buffer)
 
 
