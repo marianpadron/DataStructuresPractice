@@ -1,5 +1,7 @@
 ## - Stacks and Queues -
+
 Name: Marian Padron 
+
 Homework assignment in which I wrote my own queue and stack libraries to better understand how they are implemented and work. They are simple implementations of both data structures, and their methods were tested using simple unit tests. These were completed based on a rubric, and it is important to note that while the majority of the code is mine, I did collaborate with the TAs and the professor.
 
 ### Further Thinking Questions
