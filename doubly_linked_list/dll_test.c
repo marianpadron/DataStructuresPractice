@@ -1,7 +1,4 @@
-// Note: This is not an exhaustive test suite, but gives you the idea
-//       of some tests you might want to create.
-//       Adding more tests and slowly making them more and more complicated
-//       as you develop your library is recommended.
+// Note: This is not an exhaustive test suite.
 //
 // Compile this assignment with: clang -g -Wall dll_test.c -o dll_test.out
 //
@@ -225,7 +222,6 @@ int unitTest9()
 // An array of function pointers to all of the tests
 // that main() can use iterate over them.
 // UNCOMMENT Tests as you are ready to use them
-// Add your own tests!
 int (*unitTests[])(int) = {
    unitTest1,
    unitTest2,
