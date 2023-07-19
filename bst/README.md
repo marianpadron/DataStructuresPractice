@@ -1,8 +1,6 @@
 ## Binary Search Trees (BST)
 
-Name: Marian Padron
-
-Completed January 2023
+**Completed January 2023**
 
 Homework assignment in which I implemented Binary Search Tree, as well as some utility functions. 
 It is a simple implementation of the data structure, and its methods were tested using simple unit tests. 
