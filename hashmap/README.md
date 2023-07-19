@@ -1,27 +1,10 @@
-# Homework 09
+## Hashmap
 
-Name: Marian Padron
-
-Github Account name: mpadron-neu
-
-Link to Github Repo:  https://github.com/Spring23-CS5008-BOS-Lionelle/homework-09-mpadron-neu
-
-How many hours did it take you to complete this assignment (estimate)? 10 hr
-
-Did you collaborate with any other students/TAs/Professors? If so, tell us who and in what capacity.  
-- one per row, add more if needed
+**Completed March 2023**
 
 
-Did you use any external resources (you do not have to cite in class material)? (Cite them below)  
-- one row per resource
-- DBJ2 hash: https://gist.github.com/MohamedTaha98/ccdf734f13299efb73ff0b12f7ce429f
-- calloc: https://www.educative.io/answers/what-is-calloc-in-c
-- calloc vs malloc : https://www.geeksforgeeks.org/difference-between-malloc-and-calloc-with-examples/
-- time complexity of hashmaps: https://linuxhint.com/hashmap-time-complexity-cpp/
 
-(Optional) What was your favorite part of the assignment? 
 
-(Optional) How would you improve the assignment? 
 
 ## Questions
 
@@ -36,7 +19,7 @@ The worst case in hashmaps occurs when there are collisions, in this case the ti
 
 2. What is the worst case time for a hashmap, even if rare, can you come up with a condition that always generates worst case?
 
-The worst case scenario for a hashmap is if there are a lot of collisions created from the hash method. If there are many collisions the time complexity of searching, inserting, and deleting can go up significantly. An worst case example would be a bandly implemented hash, where all elements in the table hash to a single index. The hashmap will essentially become a linked list and will have the corresponding worst case time complexity of O(n).
+  The worst case scenario for a hashmap is if there are a lot of collisions created from the hash method. If there are many collisions the time complexity of searching,       inserting, and deleting can go up significantly. An worst case example would be a bandly implemented hash, where all elements in the table hash to a single index. The       hashmap will essentially become a linked list and will have the corresponding worst case time complexity of O(n).
 
 3. Looking back at the Lab09, how often did you see collisions from the various data sizes? (go ahead and copy/paste the output from the lab)
 
@@ -97,10 +80,9 @@ Collisions: 461793, Highest: 200, Average Length > 1: 3.11, Filled Spots: 611832
 
 Hashmaps can help with dynamic programming by being an effective storage method used to retreive data as an algorithm is called recursively. When using dynamic programming we are breaking down a problem into smaller problems, which then get solved and their results stored to be used by the larger problem. Using hashmaps is an effective method of keeping a faster runtime because of their retreival time complexity of O(1). They can also be effective machanisms for caches depending on the size of the cache and the access pattern for the data. With caches we store frequently used data in fast memory location, which makes a hashmap more effective than using other more time consuming memory allocations such as a database. 
 
-
-## Important notes
-
-* You must commit any additional files(if any) into your repository so we can test your code.
-  * Points will be lost if you forget!
-* Do not forget, once you have pushed your changes to your repo make sure that you **submit them to Gradescope before the assignment deadline!**
-
+Did you use any external resources (you do not have to cite in class material)? (Cite them below)  
+- one row per resource
+- DBJ2 hash: https://gist.github.com/MohamedTaha98/ccdf734f13299efb73ff0b12f7ce429f
+- calloc: https://www.educative.io/answers/what-is-calloc-in-c
+- calloc vs malloc : https://www.geeksforgeeks.org/difference-between-malloc-and-calloc-with-examples/
+- time complexity of hashmaps: https://linuxhint.com/hashmap-time-complexity-cpp/
